@@ -1,0 +1,31 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  /* ব্যাকগ্রাউন্ড হবে হালকা ঘন দুধের মতো (Creamy White) */
+  background-color: #fffbeb; 
+  color: #4b5563;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* ইনপুট ফিল্ডে ফোকাস করলে গোল্ডেন বর্ডার আসবে */
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #d97706 !important;
+  box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.2);
+}
